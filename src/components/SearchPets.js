@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { ANIMALS } from '@frontendmasters/pet';
-import PetsList from './PetsList';
+import PetsList from './PetList';
 import petFinder from '../helpers/petFinderApi';
 
 const SearchPets = ({
