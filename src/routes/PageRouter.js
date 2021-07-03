@@ -1,9 +1,9 @@
 import React from 'react';
 import { Router } from '@reach/router';
-import Details from '../Components/Details';
+import Details from '../components/Details';
 import App from '../components/App';
-import Navbar from '../Components/Navbar';
-import Footer from '../Components/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const PageRouter = () => (
   <div className="main__container">
