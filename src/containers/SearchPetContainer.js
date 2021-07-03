@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import {
-  fetchPets, FilterGender, filterSize, filterPets,
+  fetchPets, filterGender, filterSize, filterPets,
 } from '../actions/index';
 import SearchPets from '../components/SearchPets';
 
