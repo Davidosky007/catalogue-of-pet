@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from '@reach/router';
 
 const Navbar = () => (
-  <header className="header__wrapper">
+  <header className="main_header">
     <Link to="/">PetFinder</Link>
   </header>
 );
