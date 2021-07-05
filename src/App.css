@@ -2,33 +2,32 @@
   text-align: center;
 }
 
-.main_header a {
+a{
   text-decoration: none;
-  font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+}
+.main_header {
+    padding: 16px;
+    background-color: #fff;
+    border-bottom: #6504b5;
+    margin-bottom: 30px;
+}
+
+.main_header>a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #6504b5;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Alegreya",serif;
 }
 
 .main__wrapper{
-  display: inline-block;
-  margin: 0 auto;
+  flex-direction: column;
 }
 
-.search__form__wrapper{
-  display: flex;
-    margin: 0 auto;
-    justify-content: center;
+.loading__wrapper, .main__wrapper {
+    display: flex;
     align-items: center;
-}
-
-label{
-  font-size: 20px;
-  padding: 10px;
-}
-
-.main__container{
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  margin: 0 auto;
+    justify-content: center;
 }
