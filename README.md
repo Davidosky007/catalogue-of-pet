@@ -2,7 +2,7 @@
 
 # Catalogue Of Pets
 
-> One paragraph statement about the project.
+> This React Capstone project is a browsable catalogue of pets using React and Redux that enables users to filter and access details of a specific item.
 
 # Search Page
 
@@ -12,13 +12,21 @@
 
 ![screenshot](./public/ss-two.png)
 
-This React Capstone project is a browsable catalogue of pets using React and Redux that enables users to filter and access details of a specific item.
+This React Capstone project is a browsable catalogue of pets using React and Redux that enables users to filter and access details of a specific item this web app has three pages.
+
+* Page with a list of pets that could be filtered by animal type
+* Page for displaying lists of a particular animal type
+* Page for displaying deatails of a particular pet
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+* React
+* PetFinder API
+* Redux
+* Hooks
+* Router
+* Css
+* NodeJS
 
 ## Live Demo
 
@@ -47,9 +55,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **David Bassey**
 
-- GitHub: [@davidosky007](https://github.com/davidosky007)
-- Twitter: [@davidosky2](https://twitter.com/Davidosky2)
-- LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-akan/)
+* GitHub: [@davidosky007](https://github.com/davidosky007)
+* Twitter: [@davidosky2](https://twitter.com/Davidosky2)
+* LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-akan/)
 
 ## 🤝 Contributing
 
@@ -63,9 +71,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
 ## 📝 License
 
