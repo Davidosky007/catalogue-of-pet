@@ -17,6 +17,7 @@ button, input, select, textarea {
     border: none;
     border-radius: 0;
     outline: none;
+    cursor: pointer;
 }
 .main_header {
     padding: 16px;
@@ -149,3 +150,51 @@ button, input, select, textarea {
     font-weight: 600;
     font-family: "Alegreya",serif;
 }
+
+.pets__details-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(26, 23, 23);
+}
+.pets__details-wrapper-box{
+  color: #fff;
+}
+.pets__details-wrapper-image>img {
+    width: 800px;
+}
+
+.pets__details-wrapper-box>button {
+    border: 1px solid #6504b5;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    transition: all .3s linear;
+    font-family: "Alegreya",serif;
+    color: #fff;
+}
+.pets__details-wrapper-box>button:last-child {
+    margin-left: 20px;
+}
+.pets__details-wrapper-box>button:hover {
+    background-color: #6504b5;
+    color: #fff;
+}
+
+@media screen and (max-width: 820px) {
+.search__form__wrapper-form, .search__form__wrapper-form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search__form__wrapper-form {
+    padding: 10px;
+}
+.search__form__wrapper-form-box>label {
+    width: 100%;
+    margin-bottom: 15px;
+}
+};
