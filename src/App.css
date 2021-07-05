@@ -132,3 +132,20 @@ button, input, select, textarea {
     color: #6504b5;
     font-weight: 600;
 }
+
+.footer__wrapper {
+    padding: 16px;
+    background-color: #fff;
+    border-bottom: #6504b5;
+    margin-top: 70px;
+}
+
+.footer__wrapper>a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #6504b5;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: "Alegreya",serif;
+}
