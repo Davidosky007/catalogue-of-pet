@@ -6,6 +6,10 @@ a{
   text-decoration: none;
 }
 
+img{
+  max-width: 100%;
+}
+
 button, input, select, textarea {
     margin: 0;
     padding: 0;
@@ -26,7 +30,7 @@ button, input, select, textarea {
     display: flex;
     justify-content: center;
     color: #6504b5;
-    font-size: 29px;
+    font-size: 49px;
     font-weight: 600;
     font-family: "Alegreya",serif;
 }
@@ -96,4 +100,35 @@ button, input, select, textarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.pets__card {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.pets__card-box {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1.95px 1.95px 2.6px rgb(0 0 0 / 15%);
+    border-radius: 6px;
+}
+
+.pets__card-box>img {
+    height: 300px;
+    display: block;
+    border-radius: 6px 6px 0 0;
+}
+
+.pets__card-box>span {
+    font-size: 22px;
+    text-align: center;
+    bottom: 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 0 0 6px 6px;
+    color: #6504b5;
+    font-weight: 600;
 }
