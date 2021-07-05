@@ -32,26 +32,20 @@ This React Capstone project is a browsable catalogue of pets using React and Red
 
 [Live Demo Link](https://pets-catalogie.herokuapp.com/)
 
-## Getting Started
+### Prerequisites
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+* NodeJS
+* React
+
+## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
+* Git clone repository `https://github.com/Davidosky007/catalogue-of-pet.git`
+* Cd to the project directory `cd catalogue-of-pet`
+* Install dependencies `npm install`
+* On the terminal run `npm start` to open up live server
+* To run test Type `npm run test` in the terminal
 
 👤 **David Bassey**
 
@@ -63,7 +57,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Davidosky007/catalogue-of-pet/issues).
 
 ## Show your support
 
@@ -71,9 +65,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [My Pet Finder API](https://www.petfinder.com/developers/docs/)
+* Facebook team who created creat-react-app API
+* [Microverse](https://www.microverse.org/)
 
 ## 📝 License
 
