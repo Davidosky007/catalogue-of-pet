@@ -5,6 +5,15 @@
 a{
   text-decoration: none;
 }
+
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
 .main_header {
     padding: 16px;
     background-color: #fff;
@@ -24,10 +33,67 @@ a{
 
 .main__wrapper{
   flex-direction: column;
+  padding: 16px;
+    background-color: rgb(26, 23, 23);
+    border-bottom: #6504b5;
+    margin-bottom: 30px;
 }
 
 .loading__wrapper, .main__wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.search__form__wrapper {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 1.95px 1.95px 2.6px rgb(101 4 181 / 15%);
+    border-radius: 10px;
+    max-width: 1200px;
+    font-family: "Alegreya",serif;
+    margin-bottom: 15px;
+}
+
+.search__form__wrapper-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search__form__wrapper-form-box>label {
+    background-color: #fff;
+    color: #121212;
+    padding: 10px;
+    box-shadow: 1.95px 1.95px 2.6px rgb(101 4 181 / 15%);
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: "Alegreya",serif;
+}
+
+.search__form__wrapper-form-box>label>select {
+    margin-left: 10px;
+    color: #121212;
+    font-family: "Alegreya",serif;
+}
+
+.search__form__wrapper-form>button {
+    border: 1px solid #9b49df;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    transition: all .3s linear;
+    font-family: "Alegreya",serif;
+}
+
+.search__form__wrapper-form>button:hover {
+    background-color: #a94ff3;
+    color: #fff;
+}
+
+.pets__wrapper {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
