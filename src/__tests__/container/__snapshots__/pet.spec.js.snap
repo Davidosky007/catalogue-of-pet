@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render Details components properly  1`] = `
+exports[`should render Pets components properly  1`] = `
 <a
-  href="/details/"
+  href="/details/null"
   onClick={[Function]}
 >
   <div

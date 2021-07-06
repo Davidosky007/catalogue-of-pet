@@ -23,14 +23,14 @@ const Pet = ({ id, name, media }) => {
 
 Pet.propTypes = {
   name: PropTypes.string,
-  media: PropTypes.array, // eslint-disable-line
+  media: PropTypes.arrayOf(PropTypes.any),
   id: PropTypes.number,
 };
 
 Pet.defaultProps = {
   name: '',
   media: [],
-  id: '',
+  id: null,
 };
 
 export default Pet;

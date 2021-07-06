@@ -73,8 +73,8 @@ Details.propTypes = {
   id: PropTypes.number,
 };
 
-Details.propTypes = {
-  id: PropTypes.any, // eslint-disable-line
+Details.defaultProps = {
+  id: null,
 };
 
 export default Details;

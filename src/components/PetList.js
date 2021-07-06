@@ -14,7 +14,7 @@ const PetsList = ({ pets }) => (
 );
 
 PetsList.propTypes = {
-  pets: PropTypes.array, // eslint-disable-line
+  pets: PropTypes.arrayOf(PropTypes.any),
 };
 
 PetsList.defaultProps = {

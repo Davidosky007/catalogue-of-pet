@@ -21,8 +21,7 @@ const SearchPets = ({
 
   const sizes = ['Small', 'Medium', 'Large'];
   const genders = ['Male', 'Female'];
-  const capitalize = ([first, ...rest]) =>
-    first.toUpperCase() + rest.join('').toLowerCase(); // eslint-disable-line
+  const capitalize = ([first, ...rest]) => first.toUpperCase() + rest.join('').toLowerCase();
 
   async function petsRequest() {
     const { animals } = await petFinder.animal
