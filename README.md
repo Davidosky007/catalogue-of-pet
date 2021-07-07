@@ -12,7 +12,9 @@
 
 ![screenshot](./public/ss-two.png)
 
-This React Capstone project is a browsable catalogue of pets using React and Redux that enables users to filter and access details of a specific item this web app has three pages.
+# About the project
+
+This project was built as a React & Redux Capstone project at Microverse. It is based on the idea of a "Catalogue of Recipes" which is a single-page application with React and Redux. It shows a browsable list of pets that users can filter and access to the details of each pet. Every page, the main page, and pages for each item have a unique route within the Single Page Application. it has three functionality.
 
 * Page with a list of pets that could be filtered by animal type
 * Page for displaying lists of a particular animal type
