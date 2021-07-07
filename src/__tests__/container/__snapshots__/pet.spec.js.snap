@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Pets components properly  1`] = `
+<a
+  href="/details/null"
+  onClick={[Function]}
+>
+  <div
+    className="pets__card"
+    data-tesid="pets-comp"
+  >
+    <div
+      className="pets__card-box"
+    >
+      <img
+        alt=""
+        src="http://placecorgi.com/300/300"
+      />
+      <span>
+        
+      </span>
+    </div>
+  </div>
+</a>
+`;

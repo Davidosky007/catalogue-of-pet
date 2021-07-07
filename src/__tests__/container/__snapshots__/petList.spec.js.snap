@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details components properly  1`] = `
+<div
+  className="pets__wrapper"
+  data-testid="pets-list-id"
+>
+  <h1
+    className="loading__wrapper"
+  >
+    No pets Found
+  </h1>
+</div>
+`;

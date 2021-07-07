@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Details components properly  1`] = `
+<header
+  className="main_header"
+>
+  <a
+    aria-current="page"
+    href="/"
+    onClick={[Function]}
+  >
+    PetFinder
+  </a>
+</header>
+`;
