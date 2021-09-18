@@ -1,76 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Getting Started with Create React App
 
-# Catalogue Of Pets
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> This React Capstone project is a browsable catalogue of pets using React and Redux that enables users to filter and access details of a specific item.
+## Available Scripts
 
-# Search Page
+In the project directory, you can run:
 
-![screenshot](./public/ss-one.png)
+### `npm start`
 
-# Details Page
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-![screenshot](./public/ss-two.png)
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-# About the project
+### `npm test`
 
-This project was built as a React & Redux Capstone project at Microverse. It is based on the idea of a "Catalogue of Recipes" which is a single-page application with React and Redux. It shows a browsable list of pets that users can filter and access to the details of each pet. Every page, the main page, and pages for each item have a unique route within the Single Page Application. it has three functionality.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-* Page with a list of pets that could be filtered by animal type
-* Page for displaying lists of a particular animal type
-* Page for displaying deatails of a particular pet
+### `npm run build`
 
-## Built With
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-* React
-* PetFinder API
-* Redux
-* Hooks
-* Router
-* Css
-* NodeJS
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Live Demo
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[Live Demo Link](https://pets-catalogie.herokuapp.com/)
+### `npm run eject`
 
-### Prerequisites
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-* NodeJS
-* React
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Getting Started
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-To get a local copy up and running follow these simple example steps.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-* Git clone repository `https://github.com/Davidosky007/catalogue-of-pet.git`
-* Cd to the project directory `cd catalogue-of-pet`
-* Install dependencies `npm install`
-* On the terminal run `npm start` to open up live server
-* To run test Type `npm run test` in the terminal
+## Learn More
 
-👤 **David Bassey**
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-* GitHub: [@davidosky007](https://github.com/davidosky007)
-* Twitter: [@davidosky2](https://twitter.com/Davidosky2)
-* LinkedIn: [David Bassey](https://www.linkedin.com/in/david-bassey-akan/)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 🤝 Contributing
+### Code Splitting
 
-Contributions, issues, and feature requests are welcome!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Feel free to check the [issues page](https://github.com/Davidosky007/catalogue-of-pet/issues).
+### Analyzing the Bundle Size
 
-## Show your support
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Give a ⭐️ if you like this project!
+### Making a Progressive Web App
 
-## Acknowledgments
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-* [My Pet Finder API](https://www.petfinder.com/developers/docs/)
-* Facebook team who created creat-react-app API
-* [Microverse](https://www.microverse.org/)
+### Advanced Configuration
 
-## 📝 License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-This project is [MIT](lic.url) licensed.
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
